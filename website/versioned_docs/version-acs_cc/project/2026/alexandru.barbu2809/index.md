@@ -1,10 +1,10 @@
-# Project Name
-A one line project description
+# Automotive Black Box
+A black box that logs data on an SD card if the RC car has been in an accident.
 
 :::info 
 
-**Author**: Student Name \
-**GitHub Project Link**: link_to_github
+**Author**: Barbu Alexandru Daniel \
+**GitHub Project Link**: TODO
 
 :::
 
@@ -12,21 +12,34 @@ A one line project description
 
 ## Description
 
-Describe in a few words your project idea.
+The project will do 2 things:
+1. Detect if the RC car was involved in a crash
+2. If a crash had occurred log data such as acceleration, speed etc on an SD card.
 
 ## Motivation
 
-Why did you choose this project?
+I am passionate about cars. Many of my solo projects had involved cars from modeling to simulating the forces that act on a car.
 
 ## Architecture 
 
 Add here the schematics with the architecture of your project. Make sure to include:
+ - i will do a Kalman filter so i need a crate for handling math and matrix multiplication
+ - i will have to do some custom graphs to determine when an accident happened so another rust crate there
+ - from what i understand i also need a filter that stabilizes the signal from the IMU sensor
+
+TODO:
  - what are the main components (architecture components, not hardware components)
  - how they connect with each other
 
 ## Log
 
 <!-- write your progress here every week -->
+
+first 2 weeks: finding the idea
+
+week 3: validating idea
+
+week 4 to present day: mess around with the board, the labs, order parts, waiting for parts.
 
 ### Week 5 - 11 May
 
@@ -36,7 +49,15 @@ Add here the schematics with the architecture of your project. Make sure to incl
 
 ## Hardware
 
-Detail in a few words the hardware used.
+Components:
+ - IMU 6 axis
+ - MicroSD card module
+ - STM board (provided by the university)
+ - buzzer
+ - LED
+ - wires
+ - breadboard
+ - power supply 4 AA batteries
 
 ### Schematics
 
