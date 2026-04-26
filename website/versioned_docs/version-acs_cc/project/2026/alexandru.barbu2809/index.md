@@ -27,19 +27,14 @@ Add here the schematics with the architecture of your project. Make sure to incl
  - i will have to do some custom graphs to determine when an accident happened so another rust crate there
  - from what i understand i also need a filter that stabilizes the signal from the IMU sensor
 
-TODO:
+<!-- TODO:
  - what are the main components (architecture components, not hardware components)
- - how they connect with each other
+ - how they connect with each other -->
 
 ## Log
 
 <!-- write your progress here every week -->
 
-first 2 weeks: finding the idea
-
-week 3: validating idea
-
-week 4 to present day: mess around with the board, the labs, order parts, waiting for parts.
 ### Week 23 Feb - 29 Mar
 
 Looking for an idea, validating idea, idea is too simple so back to square 1.
